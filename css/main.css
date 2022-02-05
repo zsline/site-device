@@ -141,7 +141,7 @@ body {
   position: relative;
   overflow-x: hidden;
 }
-h2{
+h2 {
   font-size: 18px;
   font-weight: 900;
   text-transform: uppercase;
@@ -639,6 +639,9 @@ form textarea {
 }
 .best-item__img-wrapper img {
   width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: top center;
 }
 .best-item__content {
   padding: 25px;
@@ -719,9 +722,9 @@ form textarea {
 .address-line::before {
   content: "";
   display: inline-block;
-  width: 12px;
-  height: 15px;
-  background-image: url(../images/interface/mapmarker.svg);
+  width: 20px;
+  height: 16px;
+  background-image: url(../images/interface/title.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 8px;
@@ -886,6 +889,7 @@ form textarea {
 .blog__item-img {
   width: 100%;
   height: 210px;
+  object-fit: cover;
 }
 
 .item-data {
@@ -927,10 +931,10 @@ form textarea {
   text-align: center;
   text-decoration-line: underline;
 }
-.footer{
+.footer {
   background-color: var(--deep);
   padding: 70px 0 30px;
 }
-.footer h2{
+.footer h2 {
   color: #fff;
 }
