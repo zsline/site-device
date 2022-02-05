@@ -888,6 +888,9 @@ form textarea {
   background-color: rgba(23, 26, 26, 0.8);
   z-index: 1;
 }
+.tools__inner h3{
+  margin-bottom: 50px;
+}
 .tools .container {
   position: relative;
   z-index: 10;
@@ -908,10 +911,10 @@ line-height: 170%;
   margin: 15px 0 20px;
   display: inline;
 }
-
 .tools__slide-info{
-margin-top: 20px;
+  margin-top: 20px;
 }
+
 /* BLOG */
 
 .blog {
